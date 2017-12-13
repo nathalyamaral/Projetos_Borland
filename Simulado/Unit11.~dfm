@@ -1,0 +1,131 @@
+object Form11: TForm11
+  Left = 311
+  Top = 135
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = '10'
+  ClientHeight = 500
+  ClientWidth = 750
+  Color = clYellow
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Scaled = False
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 304
+    Top = 24
+    Width = 147
+    Height = 32
+    Caption = 'Quest'#227'o 10'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Top = 88
+    Width = 680
+    Height = 24
+    Caption = 'O que fazer quando uma v'#237'tima de acidente pedir '#225'gua para beber?'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object RadioButton1: TRadioButton
+    Left = 32
+    Top = 144
+    Width = 489
+    Height = 17
+    Caption = 'A) Dar leite ou '#225'gua com a'#231#250'car.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object RadioButton2: TRadioButton
+    Left = 32
+    Top = 200
+    Width = 513
+    Height = 17
+    Caption = 'B) Deixar a v'#237'tima tomar quanta '#225'gua quiser.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object RadioButton3: TRadioButton
+    Left = 32
+    Top = 248
+    Width = 513
+    Height = 25
+    Caption = 'C) Dar um pouco de '#225'gua, apenas para matar a sede.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object r10: TRadioButton
+    Left = 32
+    Top = 304
+    Width = 353
+    Height = 17
+    Caption = 'D) Mant'#234'-la em jejum.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object RadioButton5: TRadioButton
+    Left = 32
+    Top = 352
+    Width = 353
+    Height = 17
+    Caption = 'E) Dar ch'#225'. '
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 320
+    Top = 424
+    Width = 129
+    Height = 41
+    Caption = 'FINALIZAR'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+end

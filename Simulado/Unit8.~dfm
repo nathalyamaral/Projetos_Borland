@@ -1,0 +1,133 @@
+object Form8: TForm8
+  Left = 311
+  Top = 135
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = '7'
+  ClientHeight = 500
+  ClientWidth = 750
+  Color = clYellow
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Scaled = False
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 312
+    Top = 24
+    Width = 132
+    Height = 32
+    Caption = 'Quest'#227'o 7'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Top = 88
+    Width = 687
+    Height = 24
+    Caption = 'Qual ser'#225' o procedimento de um socorrista em caso de uma ferida?'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object RadioButton1: TRadioButton
+    Left = 32
+    Top = 144
+    Width = 681
+    Height = 17
+    Caption = 
+      'A)  Limpar o local da ferida, estancar a hemorragia, se necess'#225'r' +
+      'io. '
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object RadioButton2: TRadioButton
+    Left = 32
+    Top = 200
+    Width = 545
+    Height = 17
+    Caption = 'B) Fazer curativo compressivo, se necess'#225'rio.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object RadioButton3: TRadioButton
+    Left = 32
+    Top = 248
+    Width = 513
+    Height = 25
+    Caption = 'C) Aplicar torniquete, se necess'#225'rio.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object RadioButton4: TRadioButton
+    Left = 32
+    Top = 304
+    Width = 353
+    Height = 17
+    Caption = 'D) A e B est'#227'o corretas.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object r7: TRadioButton
+    Left = 32
+    Top = 352
+    Width = 353
+    Height = 17
+    Caption = 'E) A , B e C est'#227'o corretas.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 320
+    Top = 424
+    Width = 129
+    Height = 41
+    Caption = 'CONTINUAR'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+end

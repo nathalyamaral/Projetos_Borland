@@ -1,0 +1,131 @@
+object Form5: TForm5
+  Left = 311
+  Top = 135
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = '4'
+  ClientHeight = 500
+  ClientWidth = 750
+  Color = clYellow
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Scaled = False
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 312
+    Top = 24
+    Width = 132
+    Height = 32
+    Caption = 'Quest'#227'o 4'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 80
+    Width = 697
+    Height = 29
+    Caption = 'Em caso de febre em crian'#231'as e adultos o socorrista dever'#225'?'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object RadioButton1: TRadioButton
+    Left = 32
+    Top = 144
+    Width = 489
+    Height = 17
+    Caption = 'A)  Dar banho de imers'#227'o na temperatura do corpo do febril. '
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object RadioButton2: TRadioButton
+    Left = 32
+    Top = 192
+    Width = 353
+    Height = 25
+    Caption = 'B) Dar banho gelado no febril.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object RadioButton3: TRadioButton
+    Left = 32
+    Top = 240
+    Width = 513
+    Height = 25
+    Caption = 'C) Dar rem'#233'dio por conta pr'#243'pria para baixar a febre.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object RadioButton4: TRadioButton
+    Left = 32
+    Top = 296
+    Width = 353
+    Height = 17
+    Caption = 'D) Ligar para o corpo de bombeiros.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object r4: TRadioButton
+    Left = 32
+    Top = 352
+    Width = 425
+    Height = 17
+    Caption = 'E) Aguardar para a febre ceder.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 320
+    Top = 424
+    Width = 129
+    Height = 49
+    Caption = 'CONTINUAR'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+end

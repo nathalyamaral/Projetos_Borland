@@ -1,0 +1,131 @@
+object Form2: TForm2
+  Left = 311
+  Top = 135
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = '1'
+  ClientHeight = 500
+  ClientWidth = 750
+  Color = clYellow
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Scaled = False
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 312
+    Top = 24
+    Width = 132
+    Height = 32
+    Caption = 'Quest'#227'o 1'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 208
+    Top = 80
+    Width = 353
+    Height = 32
+    Caption = 'O que vem a ser entorses?'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 312
+    Top = 424
+    Width = 137
+    Height = 41
+    Caption = 'CONTINUAR'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object RadioButton1: TRadioButton
+    Left = 32
+    Top = 144
+    Width = 537
+    Height = 17
+    Caption = 'A) '#201' a tor'#231#227'o de uma junta ou articula'#231#227'o. '
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object RadioButton2: TRadioButton
+    Left = 32
+    Top = 192
+    Width = 545
+    Height = 17
+    Caption = 'B) '#201' a ruptura parcial ou total dos ligamentos.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+  end
+  object RadioButton3: TRadioButton
+    Left = 32
+    Top = 240
+    Width = 681
+    Height = 25
+    Caption = 'C) '#201' o deslocamento de um ou mais ossos da sua posi'#231#227'o normal.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object RadioButton4: TRadioButton
+    Left = 32
+    Top = 296
+    Width = 593
+    Height = 17
+    Caption = 'D) '#201' a quebra parcial de ossos da costela.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+  end
+  object r1: TRadioButton
+    Left = 32
+    Top = 352
+    Width = 553
+    Height = 17
+    Caption = 'E) A e B est'#227'o corretas. '
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+  end
+end
